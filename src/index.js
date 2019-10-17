@@ -24,7 +24,18 @@ class App extends React.Component {
             type="text"
             onKeyUp={this.textChange.bind(this)}
           />
-          <p className="light">{this.state.text}</p>
+
+          <div className="out">
+            <p className="thin">{this.state.text}</p>
+            <p className="extra-light">{this.state.text}</p>
+            <p className="light">{this.state.text}</p>
+            <p className="regular">{this.state.text}</p>
+            <p className="medium">{this.state.text}</p>
+            <p className="semi-bold">{this.state.text}</p>
+            <p className="bold">{this.state.text}</p>
+            <p className="extra-bold">{this.state.text}</p>
+            <p className="black">{this.state.text}</p>
+          </div>
         </header> 
         <footer>
           <p>Made with ♥  by <a href="https://gabrielpolastrini.com" target="_blank" rel="noopener noreferrer">Gabriel Polastrini</a></p>

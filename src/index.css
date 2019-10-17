@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,200i,300i,400i,500,500i,600i,700,700i,800i,900i&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -10,16 +16,61 @@ body {
 }
 
 .App-header {
-  background-color: #EBF5EE;
+  background-color: #0C0A3E;
   min-height: 94vh;
   display: flex;
   flex-direction: column;
   align-items: center; 
-  color: black;
+  color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+p.thin {
+  font-weight: 100;
+  font-style: italic;
+}
+
+p.extra-light {
+  font-weight: 200;
+  font-style: italic;
+}
+
+p.light {
+  font-weight: 300;
+  font-style: italic;
+}
+
+p.regular {
+  font-weight: 400;
+  font-style: italic;
+}
+
+p.medium {
+  font-weight: 500;
+  font-style: italic;
+}
+
+p.semi-bold {
+  font-weight: 600;
+  font-style: italic;
+}
+
+p.bold {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p.extra-bold {
+  font-weight: 800;
+  font-style: italic;
+}
+
+p.black {
+  font-weight: 900;
+  font-style: italic;
 }
 
 input {
@@ -42,4 +93,13 @@ h1 {
 p {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+div.out {
+  padding: 0px;
+}
+
+div.out p {
+  padding: 0px;
+  margin: 0px;
 }
